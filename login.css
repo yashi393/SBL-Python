@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0; 
+  font-family: 'Poppins', sans-serif;
+}
+.hero{
+  height: 100%;
+  width: 100%;
+background:#36313A;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.form__box{
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: #ffff;
+  padding: 5px;
+  overflow: hidden;
+}
+.button__box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+.toggle__btn{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+#btn{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right,#F67E7d,#F67E7d);
+  border-radius: 30px;
+  transition: .5s;
+}
+.input__group{
+  top: 110px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+}
+.input__field{
+  width: 100%;
+  padding: 13px 0;
+  margin: 7px 7px;
+  border-radius: 20px;
+  border-bottom: 2px solid rgb(10, 1, 1);
+  outline: none;
+  background: transparent;
+}
+.submit__btn{
+  top: 90px;
+  width: 65%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  border: 0;
+  outline: none;
+  border-radius: 60px;
+  background: linear-gradient(to right,#F67E7d,#F67E7d);
+}
+#Login{
+  left: 50px;
+}
+#register{
+  left: 450px;
+}
+.navbar {
+  background:#29262C;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index : 999;
+
+}
+
+.navbar__container {
+  display: flex;
+  justify-content:  space-between;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+/*Logo*/
+#navbar__logo{
+  background-color: rgb(205, 30, 30);
+  background-image: linear-gradient(to top,#F67E7d 0%,#F67E7d 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+#logo{
+height: 70px;
+width: auto;
+
+}
+
+
+.navbar__menu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.navbar__item{
+  height: 80px;
+}
+/*navigation bar buttons*/
+.navbar__links{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;   
+}
+
+.navbar__btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1 rem;
+  width: 100%;
+}
+
+/*sign up button*/
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #F67E7d;
+  color: white;
+}
+
+/*hover animation*/
+.button:hover {
+  background-image: linear-gradient(to right,#F67E7d 0%,#F67E7d 100%);
+  transition: all 0.3s ease;
+}
+.navbar__links:hover {
+  color: #F67E7d;
+  transition: ALL 0.3s ease;
+}
+
+
+
+
+
+

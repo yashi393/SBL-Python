@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Login page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar"> 
+    <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fas fa-fire"></i> INSIGHT </a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="index.html" class="navbar__links">
+                    Home
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="index.html" class="navbar__links">
+                    About us
+                </a>
+            </li>
+            
+            <li class="navbar__item">
+                <a href="index.html" class="navbar__links">
+                  Get Started
+                </a>
+              </li>
+            <li class="navbar__item">
+                <a href="login.html" class="navbar__links">
+                  Sign in
+                </a>
+              </li>
+        </ul>
+     </div>
+</nav>
+
+ 
+
+  <div class="hero">
+    <div class="form__box">
+      <div class="button__box">
+        <div id="btn"></div>
+        <table>
+          <th>
+        <button type="button" class="toggle__btn" onclick="Login()">Login</button>
+      </th>
+      <th>
+        <button type="button" class="toggle__btn" onclick="register()"> Register</button>
+      </th>
+      </table>
+      </div>
+      <form id="Login" class="input__group">
+        <input type="text" class="input__field" placeholder="username" required>
+        <input type="password" class="input__field" placeholder="Enter Password" required>
+        <button type="submit" class="submit__btn">Log In</button>
+      </form>
+      <form id="register" class="input__group">
+        <input type="text" class="input__field" placeholder=" First Name" required>
+        <input type="text" class="input__field" placeholder="Last Name" required>
+        <input type="email" class="input__field" placeholder="Email Id" required>
+        <input type="text" class="input__field" placeholder="Username" required>
+        <input type="password" class="input__field" placeholder="Enter Password" required>
+        <button type="submit" class="submit__btn">Register</button>
+      </form>
+    </div>
+  </div>
+<script>
+  var x = document.getElementById("Login");
+  var y = document.getElementById("register");
+  var z = document.getElementById("btn");
+  function register(){
+    x.style.left = "-400px";
+    y.style.left = "50px";
+    z.style.left = "110px";
+
+  }
+  function Login(){
+    x.style.left = "50px";
+    y.style.left = "450px";
+    z.style.left = "0px";
+
+  }
+</script>
+</body>
+</html>
